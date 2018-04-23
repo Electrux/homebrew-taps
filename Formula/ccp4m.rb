@@ -8,7 +8,7 @@ class Ccp4m < Formula
 
   def install
     system "./build.sh"
-    cp "bin/ccp4m", bin
+    bin.install "bin/ccp4m"
   end
 
   test do
