@@ -1,7 +1,7 @@
 class LsExtended < Formula
   desc "Command: ls with coloring and icons"
   homepage "https://github.com/Electrux/ls_extended"
-  url "https://github.com/Electrux/ls_extended/archive/v1.0.0.tar.gz"
+  url "https://github.com/Electrux/ls_extended/archive/refs/tags/v1.tar.gz"
   sha256 "c6af08877e889fe0732f25f7e6f850c7816cf7788fee191bcc80dbf1288b3740"
 
   def install
